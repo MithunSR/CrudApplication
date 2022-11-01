@@ -1,5 +1,5 @@
-const mongoose = require('module');
-const { trusted } = require('mongoose');
+const mongoose = require('mongoose');
+
 
 const PostSchema = new mongoose.Schema({
 
@@ -16,4 +16,4 @@ const PostSchema = new mongoose.Schema({
         required:true
     }
 });
-module.exports = mongoose.model('Posts ,PostaSchema');
+module.exports = mongoose.model('Posts' ,PostSchema);
